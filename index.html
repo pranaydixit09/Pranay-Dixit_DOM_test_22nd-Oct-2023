@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Get My IP Address</title>
+</head>
+<body>
+    <h1>Your IP Address is:</h1>
+    <p id="ip-address"></p>
+
+
+
+    <button onclick="getData()">Get Data</button>
+
+        <div id="dataContainer" style="display: none;">
+            <h2>IP Data:</h2>
+            <p id="latitude"></p>
+            <p id="longitude"></p>
+            <p id="city"></p>
+            <p id="region"></p>
+            <p id="timezone"></p>
+
+            <h1>User's Location on Google Maps</h1>
+  
+            <div id="map"></div>
+
+            <h1>User's Time</h1>
+            <p id="time"></p>
+
+            <h1>Post Offices in the Area</h1>
+            <ul id="postOffices"></ul>
+    <script src="script.js"></script>
+</body>
+</html>
